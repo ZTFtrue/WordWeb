@@ -1,0 +1,20 @@
+.word-view{
+  display: flex!important;
+  flex-direction: column!important;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px rgba(128, 128, 128, 0.247) solid;
+  .word-name{
+    font-size: large;
+  }
+  .word-phontic{
+    margin-top: 10px;
+  }
+  .explain-view{
+    margin: 8px 0px 0px 0px;
+  }
+  .explain-extra{
+    margin-top: 10px;
+    width: 100%;
+  }
+}
